@@ -11,3 +11,7 @@ _Code:_
 _const text = "hello there";_
 _wordCounter(text);_
 _Expected Output: 2_
+
+_Test: "It should return 0 for an empty string."_
+_Code: wordCounter("");_
+_Expected Output: 0_
