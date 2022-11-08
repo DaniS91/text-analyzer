@@ -1,4 +1,4 @@
-####_Describe: wordCounter()_####
+####Describe: wordCounter()####
 
 _Test: "It should return 1 if a passage has just one word."_
 _Code:_
@@ -14,4 +14,8 @@ _Expected Output: 2_
 
 _Test: "It should return 0 for an empty string."_
 _Code: wordCounter("");_
+_Expected Output: 0_
+
+_Test: "It should return 0 for a string that is only spaces."_
+_Code: wordCounter("      ");_
 _Expected Output: 0_
