@@ -1,4 +1,4 @@
-####_Describe: wordCounter()_####
+_####Describe: wordCounter()####_
 
 _Test: "It should return 1 if a passage has just one word."_
 _Code:_
