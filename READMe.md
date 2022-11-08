@@ -19,3 +19,7 @@ _Expected Output: 0_
 _Test: "It should return 0 for a string that is only spaces."_
 _Code: wordCounter("      ");_
 _Expected Output: 0_
+
+_Test: "It should not count numbers as words."_
+_Code: wordCounter("hi there 77 19");_
+_Expected Output: 2_
